@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+  <div class="min-h-screen bg-gradient-to-b from-[#4a7ba7] to-[#1d4d7a] flex items-center justify-center">
+    <div class="w-full max-w-md px-8">
+      
+      <!-- LOGIN Title -->
+      <h1 class="text-2xl font-bold text-gray-800 mb-8">LOGIN</h1>
+      
+      <!-- Email Input -->
+      <div class="mb-6">
+        <div class="flex items-center bg-gray-200 rounded-full px-6 py-3">
+          <svg class="w-5 h-5 text-gray-600" fill="currentColor" viewBox="0 0 20 20">
+            <path d="M2.003 5.884L10 9.882l7.997-3.998A2 2 0 0016 4H4a2 2 0 00-1.997 1.884z"></path>
+            <path d="M18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z"></path>
+          </svg>
+          <input 
+            type="email" 
+            placeholder="Email Address" 
+            class="bg-transparent ml-4 w-full outline-none text-gray-700 placeholder-gray-600"
+          >
+        </div>
+      </div>
+      
+      <!-- Password Input -->
+      <div class="mb-8">
+        <div class="flex items-center bg-gray-200 rounded-full px-6 py-3">
+          <svg class="w-5 h-5 text-gray-600" fill="currentColor" viewBox="0 0 20 20">
+            <path fill-rule="evenodd" d="M5 9V7a5 5 0 0110 0v2a2 2 0 012 2v5a2 2 0 01-2 2H5a2 2 0 01-2-2v-5a2 2 0 012-2zm8-2v2H7V7a3 3 0 016 0z" clip-rule="evenodd"></path>
+          </svg>
+          <input 
+            type="password" 
+            placeholder="Password" 
+            class="bg-transparent ml-4 w-full outline-none text-gray-700 placeholder-gray-600"
+          >
+        </div>
+      </div>
+      
+      <!-- Login Button -->
+      <button class="w-full bg-gray-300 hover:bg-gray-400 text-gray-800 font-semibold py-3 px-6 rounded-full mb-6 transition duration-200">
+        Login
+      </button>
+      
+      <!-- Forgot Password Link -->
+      <div class="text-center mb-4">
+        <div class = "text-gray-600 text-sm hover:text-gray-800">Forgot your password?</a>
+      </div>
+      
+      <!-- Divider -->
+      <div class="text-center text-gray-600 text-sm mb-6">
+        Or continue with
+      </div>
+      
+      <!-- Social Login Icons -->
+      <div class="flex justify-center gap-6">
+        <!-- Google -->
+        <a href="#" class="hover:opacity-80 transition">
+          <img src="/asset/logo ggl.png" class="w-70 h-10 rounded-full shadow-lg">
+        </a>
+        <!-- Facebook -->
+        <a href="#" class="hover:opacity-80 transition">
+          <img src="/asset/fesnuk.png" class="w-70 h-10 rounded-full shadow-lg">
+        </a>
+          
+        
+        <!-- Instagram -->
+        <a href="#" class="hover:opacity-80 transition">
+         <img src="/asset/logo ig.png" class="w-70 h-10 rounded-full shadow-lg" >
+          </svg>
+        </a>
+      </div>
+      
+    </div>
+  </div>
+</body>
+</html>
